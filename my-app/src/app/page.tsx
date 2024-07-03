@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="lg:px-14 px-6">
       <div className="container mx-auto">
-        page
+        home page
       </div>
     </div>
   );
