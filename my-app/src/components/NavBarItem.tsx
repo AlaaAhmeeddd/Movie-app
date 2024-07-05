@@ -6,6 +6,7 @@ type navbarItemType = {
     title: string,
     param: string,
 }
+
 export default function NavBarItem({title , param}: navbarItemType) {
     const searchParam = useSearchParams();
     const searchName = searchParam.get("genre")
